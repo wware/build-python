@@ -17,3 +17,6 @@ sudo chown -R wware:wware /venv3
 deactivate || true
 source /venv3/bin/activate
 pip install -r requirements.txt
+
+# more stuff I need for work
+pip install ruff pylint mock boto3 pytest logging-formatter-anticrlf pycrypto remote_pdb
